@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRISIS HÍDRICA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #ADD8E6;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav {
+            background-color: #ADD8E6;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000; /* Para asegurarse de que la barra de navegación esté por encima de otros elementos */
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        section {
+            padding: 20px;
+            margin-top: 50px; /* Para dejar espacio para la barra de navegación fija */
+        }
+        footer {
+            background-color: #ADD8E6;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        ul li {
+            display: flex; /* Hace que los elementos dentro de <li> se comporten como flexbox */
+            flex-direction: column; /* Establece la dirección de los elementos como columna */
+            align-items: center; /* Centra los elementos horizontalmente */
+        }
+        ul li img {
+            width: 300px; /* Modifica el tamaño de la imagen según lo necesites */
+            margin-bottom: 5px; /* Añade un espacio entre la imagen y el texto del elemento de la lista */
+        }
+        /* Estilo para el video */
+        .video-container {
+            position: relative;
+            width: 80%; /* Ajusta el ancho del video según tus necesidades */
+            margin: auto; /* Centra horizontalmente el video */
+            padding-bottom: 56.25%; /* Proporción de aspecto del video (16:9) */
+            overflow: hidden;
+            margin-bottom: 20px; /* Añade espacio debajo del video */
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CRISIS HÍDRICA</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#afectaciones">Afectaciones</a>
+        <a href="#soluciones">Soluciones</a>
+        <a href="#más">Más información</a>
+    </nav>
+    <section id="inicio">
+        <h2>¿Qué está pasando con el agua en México?</h2>
+        <p>La crisis de agua es una reacción que ha provocado la problemática de la sequía en México; una situación que inició desde hace varios años atrás, pero que para este 2024, la cruda realidad ha comenzado a afectar directamente a muchas personas.</p>
+        <p>La escasez de agua es una realidad que requiere de atención urgente. Según la ONU, las sequías se duplicarán para 2050. Esto amenaza la disponibilidad y calidad del agua. México ya enfrenta desafíos por la falta del recurso. A lo largo de las últimas décadas las sequías se han intensificado, principalmente en las regiones norte y centro.</p>
+
+        <p>Las sequías tienen múltiples causas interconectadas que incluyen el cambio climático, el crecimiento poblacional, la sobreexplotación del agua y la deforestación. El cambio climático altera los patrones de precipitación y vuelve a las lluvias impredecibles. El aumento de la población conduce a un mayor consumo, mientras que la deforestación disminuye la capacidad de los ecosistemas para retener agua y regular el ciclo hidrológico.</p>
+
+        <p>Uno de los factores más preocupantes es la reducción y variación en las precipitaciones. De acuerdo con datos de la Conagua, en junio de 2023 a nivel nacional llovió 61 % menos en relación con el promedio del mismo mes de 1991 a 2020.</p>
+    </section>
+    <section id="afectaciones">
+        <h2>Estados más afectados</h2>
+        <p>La Comisión Nacional del Agua (Conagua) compartió en su “Monitor de Sequía de México” el listado completo de los estados más afectados por la escasez de agua.</p>
+        <!-- Listado -->
+        <ul>
+            <li>Sonora (sequía extrema)<img src="https://images.pexels.com/photos/7245245/pexels-photo-7245245.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sonora"></li>
+            <li>Chihuahua (sequía extrema)<img src="https://images.pexels.com/photos/4719939/pexels-photo-4719939.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Chihuahua"></li>
+            <li>Sinaloa (sequía extrema)<img src="https://images.pexels.com/photos/690754/pexels-photo-690754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sinaloa"></li>
+            <li>Durango (sequía extrema)<img src="https://images.pexels.com/photos/60013/desert-drought-dehydrated-clay-soil-60013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Durando"></li>
+            <li>Tamaulipas (sequía extrema)<img src="https://images.pexels.com/photos/1710813/pexels-photo-1710813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Tamaulipas"></li>
+            <li>Oaxaca (sequía extrema)<img src="https://images.pexels.com/photos/141489/pexels-photo-141489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Oaxaca"></li>
+            <li>Guerrero (sequía extrema)<img src="https://images.pexels.com/photos/761040/pexels-photo-761040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Guerrero"></li>
+            <li>San Luis Potosí (sequía extrema)<img src="https://images.pexels.com/photos/3480494/pexels-photo-3480494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="San Luis Potosí"></li>
+            <li>Guanajuato (sequía extrema)<img src="https://images.pexels.com/photos/7944789/pexels-photo-7944789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Guanajuato"></li>
+            <li>Querétaro (sequía extrema)<img src="https://images.pexels.com/photos/2496572/pexels-photo-2496572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Querétaro"></li>
+            <li>Hidalgo (sequía extrema)<img src="https://images.pexels.com/photos/632252/pexels-photo-632252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hidalgo"></li>
+            <li>Ciudad de México (sequía extrema)<img src="https://images.pexels.com/photos/216692/pexels-photo-216692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Ciudad de México"></li>
+            <li>Estado de México (sequía extrema)<img src="https://images.pexels.com/photos/2583028/pexels-photo-2583028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Estado de México"></li>
+            <li>Aguascalientes (sequía extrema)<img src="https://images.pexels.com/photos/66346/pexels-photo-66346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Aguascalientes"></li>
+    <section id="soluciones">
+        <h2>Posibles soluciones</h2>
+        <p>El gobierno mexicano ha implementado diversas medidas para abordar la crisis del agua en el país. Una de ellas es el Programa Nacional Hídrico 2020-2024 tiene como objetivo mejorar la gestión integral del agua, promover el uso eficiente del recurso y garantizar el acceso equitativo al agua potable.</p>
+
+        <p>Además, se están realizando inversiones significativas en infraestructura para el tratamiento de aguas residuales y la construcción de plantas de desalinización en áreas costeras; así como la implementación de otras medidas como el reúso de agua tratada.</p>
+    </section>
+    <section id="más">
+        <h2>Más información</h2>
+        <p>Si te interesa saber más sobre la crsis hídrica en México, te invitamos a ver este video.</p>
+    </section>    
+            
+        </ul>
+    </section>
+    <!-- Video de YouTube -->
+    <section>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TzcX9-vfTW0?si=xO4nuiIYjsXZm9K2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <footer>
+        <p>2024</p>
+    </footer>
+
+    <script>
+        // Código JavaScript para desplazamiento suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
